@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1062
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parralelism", "Parralelism\Parralelism.csproj", "{06B35BE8-B670-472A-97E4-262A8A5B61DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parralelism", "Parralelism\Parralelism.csproj", "{06B35BE8-B670-472A-97E4-262A8A5B61DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tasks", "Tasks\Tasks.csproj", "{FFEF8CC9-BBA0-4FC2-99DA-A483875C3544}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threads", "Threads\Threads.csproj", "{284FB59C-4487-408C-80F3-1E0CF2E84E6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{06B35BE8-B670-472A-97E4-262A8A5B61DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06B35BE8-B670-472A-97E4-262A8A5B61DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06B35BE8-B670-472A-97E4-262A8A5B61DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFEF8CC9-BBA0-4FC2-99DA-A483875C3544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFEF8CC9-BBA0-4FC2-99DA-A483875C3544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFEF8CC9-BBA0-4FC2-99DA-A483875C3544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFEF8CC9-BBA0-4FC2-99DA-A483875C3544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{284FB59C-4487-408C-80F3-1E0CF2E84E6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{284FB59C-4487-408C-80F3-1E0CF2E84E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{284FB59C-4487-408C-80F3-1E0CF2E84E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{284FB59C-4487-408C-80F3-1E0CF2E84E6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

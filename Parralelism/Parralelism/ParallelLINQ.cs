@@ -39,10 +39,14 @@ namespace Parralelism
             };
 
             var result = from person in people.AsParallel()
+                         //.WithDegreeOfParallelism(4)
+                         //.WithExecutionMode(ParallelExecutionMode.ForceParallelism)
                          where person.City == "Seattle"
                          select person;
-            foreach (var person in result)
-                Console.WriteLine(person.Name);
+            //foreach (var person in result)
+            //    Console.WriteLine(person.Name);
+
+            result.ForAll(person => Console.WriteLine(person.Name));
             Console.WriteLine("Finished processing. Press a key to end.");
             Console.ReadKey();
         }

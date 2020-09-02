@@ -5,3 +5,7 @@
 /Parralelism/.vs/Parralelism/v15
 /Parralelism/Parralelism/bin/Debug/netcoreapp2.1
 /Parralelism/Parralelism/obj
+/Parralelism/Tasks
+/Parralelism/Threads/bin/Debug/netcoreapp2.2
+/Parralelism/Threads/obj
+/Parralelism/.vs/Parralelism/DesignTimeBuild
