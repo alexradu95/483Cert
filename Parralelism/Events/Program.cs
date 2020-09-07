@@ -6,7 +6,9 @@ namespace Events
     {
         static void Main(string[] args)
         {
-            PublishSubscribe.RunPublishSubscribeExample();
+            //PublishSubscribe.RunPublishSubscribeExample();
+            //CreateDelegates.CreateDelegatesExample();
+            Closures.ClosuresExample();
         }
     }
 }
