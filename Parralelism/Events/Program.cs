@@ -8,7 +8,8 @@ namespace Events
         {
             //PublishSubscribe.RunPublishSubscribeExample();
             //CreateDelegates.CreateDelegatesExample();
-            Closures.ClosuresExample();
+            //Closures.ClosuresExample();
+            AnonymousMethods.AnonymousMethodsExample();
         }
     }
 }
