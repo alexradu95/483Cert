@@ -22,7 +22,8 @@ namespace Parralelism
             Console.WriteLine("Completed: " + result.IsCompleted);
             Console.WriteLine("Items: " + result.LowestBreakIteration);
             Console.WriteLine("Finished processing. Press a key to end.");
-            Console.ReadKey();
+            Console.ReadKey();
+
         }
 
         private static void WorkOnItem(object item)

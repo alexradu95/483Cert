@@ -9,3 +9,10 @@
 /Parralelism/Threads/bin/Debug/netcoreapp2.2
 /Parralelism/Threads/obj
 /Parralelism/.vs/Parralelism/DesignTimeBuild
+/Parralelism/AsyncAwait/bin/Debug/netcoreapp2.2
+/Parralelism/AsyncAwait/obj
+/Parralelism/Events/bin/Debug/netcoreapp2.2
+/Parralelism/Events/obj/Debug/netcoreapp2.2
+/Parralelism/Events/obj
+/Parralelism/ManageMultiThreading/bin/Debug/netcoreapp2.2
+/Parralelism/ManageMultiThreading/obj
